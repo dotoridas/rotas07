@@ -15,3 +15,8 @@ Go to section apps and find scripts array inside it, and add the following lines
   "../node_modules/jquery/dist/jquery.js",
   "../node_modules/hammerjs/hammer.js",
   "../node_modules/materialize-css/dist/js/materialize.js"
+  
+  
+Error: More than one module matches. Use skip-import option to skip importing the component into the closest module.
+More than one module matches. Use skip-import option to skip importing the component into the closest module.
+=>  ng g c new-component --module app
